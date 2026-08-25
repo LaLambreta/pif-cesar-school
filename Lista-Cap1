@@ -1,0 +1,50 @@
+1. Escreva um programa completo em C que declare uma variável do tipo inteiro, atribua um valor a ela (como o seu ano de nascimento ou o ano letivo corrente) e a imprima na tela junto com uma mensagem de texto explicativa utilizando a função printf() com o especificador de formato correspondente.
+
+`#include<stdio.h>`
+	int main() {`
+		`int idade = 21;`
+		`printf("Idade: %d\n", idade);`
+		`return 0;`
+	`}`
+
+2. Faça um programa em C que declare uma variável de ponto flutuante de precisão simples (float), atribua a ela um valor constante real de sua preferência (como o valor do número de Euler 'e' = 2.71828) e exiba o resultado no console formatado com exatamente três casas decimais de precisão.
+
+`#include<stdio.h>`
+	`int main() {`
+		`float pi = 3.14159;`
+		`printf("O valor de Pi: %.3f\n", pi);`
+		`return 0;`
+	`}`
+
+3. O uso correto de comentários é fundamental para documentar e tornar o código compreensível. Com base nos tipos de comentários estudados (múltiplas linhas e linha única), escreva um programa simples em C e documente-o de forma clara. Siga o modelo de formatação de código ilustrado abaixo:
+ `/* Esse programa mostra o uso de comentários em várias linhas`
+*`e mostra também o uso de comentários em uma única linha/*`
+`*`
+*`Primeiro programa`
+`***************************************************************/`
+`/* Prog1.C */`
+
+`#include <stdio.h> /* Para printf() */`
+`#include <stdlib.h>/* Para system() */`
+`int main() /* Função main */`
+`{ /* início do corpo da função main */`
+`printf("Primeiro programa."); /* Chamada à função printf */`
+`system("PAUSE"); /* Chamada à função system */`
+`return 0;`
+`}/* Fim do corpo da função main */`
+
+Meu programa:
+
+`/* Exemplo de programa em C */`
+`#include<stdio.h> // Biblioteca que controla a entrada e saída de dados(como o printf e scanf).`
+`#include<stdlib.h> // Biblioteca para gerenciar memória, números aleatórios e dados em C.`
+`#include<locale.h> // Biblioteca para a utilização de diferentes configurações regionais, como idioma e formatação de números.`
+	`int main() { // Função principal (main) do programa.`
+			`setlocale(LC_ALL, "Portuguese"); // Configura a localidade para português, permitindo o uso de caracteres especiais e formatação adequada.`
+		`printf("Este é o número %d\n \a", 5); // Imprime a mensagem "Este é o número 5" no console e emite um som de alerta (beep) devido ao caractere especial \a.`
+		`system("PAUSE"); // Pausa a execução do programa até que o usuário pressione uma tecla, permitindo que ele veja a saída antes de o programa terminar.`
+		`return 0; // Retorna 0 para indicar que o programa terminou com sucesso.`
+	`} // Fim da função main e do programa.`
+
+
+
