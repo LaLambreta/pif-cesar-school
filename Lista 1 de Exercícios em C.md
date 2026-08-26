@@ -1,12 +1,12 @@
 ##### 1. Escreva um programa completo em C que declare uma variável do tipo inteiro, atribua um valor a ela (como o seu ano de nascimento ou o ano letivo corrente) e a imprima na tela junto com uma mensagem de texto explicativa utilizando a função printf() com o especificador de formato correspondente.
-
+```
 `#include <stdio.h>`
 	int main() {`
 		`int idade = 21;`
 		`printf("Idade: %d\n", idade);`
 		`return 0;`
 	`}`
-
+```
 ##### 2. Faça um programa em C que declare uma variável de ponto flutuante de precisão simples (float), atribua a ela um valor constante real de sua preferência (como o valor do número de Euler 'e' = 2.71828) e exiba o resultado no console formatado com exatamente três casas decimais de precisão.
 
 `#include <stdio.h>`
